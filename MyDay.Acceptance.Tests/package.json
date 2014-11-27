@@ -1,0 +1,10 @@
+{
+  "name": "MyDay.Acceptance.Tests",
+  "version": "0.0.0",
+  "description": "MyDay.Acceptance.Tests",
+  "main": "app.js",
+  "author": {
+    "name": "Mike",
+    "email": ""
+  }
+}

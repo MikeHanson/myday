@@ -1,0 +1,3 @@
+﻿# MyDay.Acceptance.Tests
+
+

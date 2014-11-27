@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "MyDay", "MyDay\MyDay.njsproj", "{082D17E3-5C13-46C8-85F0-7768A2DB81EB}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "MyDay.Acceptance.Tests", "MyDay.Acceptance.Tests\MyDay.Acceptance.Tests.njsproj", "{8DC2D951-B8AF-4774-84EA-181625DC2EB8}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{082D17E3-5C13-46C8-85F0-7768A2DB81EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{082D17E3-5C13-46C8-85F0-7768A2DB81EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{082D17E3-5C13-46C8-85F0-7768A2DB81EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{082D17E3-5C13-46C8-85F0-7768A2DB81EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DC2D951-B8AF-4774-84EA-181625DC2EB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DC2D951-B8AF-4774-84EA-181625DC2EB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DC2D951-B8AF-4774-84EA-181625DC2EB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DC2D951-B8AF-4774-84EA-181625DC2EB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
