@@ -1,6 +1,6 @@
 ﻿exports.config = {
     specs: ['spec/*.js'],
-    baseUrl: 'http://localhost:3000',
+    baseUrl: 'http://localhost:1333',
     jasmineNodeOpts: {
         showColors: true,
         silent: true
@@ -19,7 +19,7 @@
         var path = __dirname + '\\screenshots\\report.html';
         var opener = require('opener');
         opener(path);
-        for(var i = 0; i < 100; i++){
+        for(var i = 0; i < 150; i++){
             console.log('Waiting for report to load...');
             // need to let opener finish
             // ugly but simplest thing I could get working

@@ -1,4 +1,45 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A021648AB779E94B867B20B79B1933CC/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A021648AB779E94B867B20B79B1933CC/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A021648AB779E94B867B20B79B1933CC/Description/@EntryValue">Creates a Jasmine spec suite for testing a Node.js module</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A021648AB779E94B867B20B79B1933CC/Field/=doThis/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A021648AB779E94B867B20B79B1933CC/Field/=doThis/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A021648AB779E94B867B20B79B1933CC/Field/=module/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A021648AB779E94B867B20B79B1933CC/Field/=module/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A021648AB779E94B867B20B79B1933CC/Field/=modulePath/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A021648AB779E94B867B20B79B1933CC/Field/=modulePath/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A021648AB779E94B867B20B79B1933CC/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A021648AB779E94B867B20B79B1933CC/Scope/=FFA15E6CFCBE90499C572A859225B012/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A021648AB779E94B867B20B79B1933CC/Scope/=FFA15E6CFCBE90499C572A859225B012/Type/@EntryValue">InJavaScriptFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A021648AB779E94B867B20B79B1933CC/Shortcut/@EntryValue">modspec</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A021648AB779E94B867B20B79B1933CC/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=A021648AB779E94B867B20B79B1933CC/Text/@EntryValue">'use strict';&#xD;
+&#xD;
+describe('$module$', function(){&#xD;
+	var module;&#xD;
+	var modulePath = '../../$modulePath$';&#xD;
+	var mockery = require('mockery');&#xD;
+&#xD;
+	beforeEach(function(){&#xD;
+		mockery.enable();&#xD;
+        mockery.registerAllowable(modulePath);&#xD;
+        module = require(modulePath);&#xD;
+	});&#xD;
+&#xD;
+	afterEach(function(){&#xD;
+		mockery.deregisterAll();&#xD;
+		mockery.disable();&#xD;
+	});&#xD;
+&#xD;
+	it('Should be defined', function(){&#xD;
+		expect(module).toBeDefined();&#xD;
+	});&#xD;
+&#xD;
+	it('Should $doThis$', function(){&#xD;
+		$END$&#xD;
+		expect(false).toBeTruthy();&#xD;
+	});&#xD;
+});</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DEEDC1B27CC2E140BC411EE30BA59118/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DEEDC1B27CC2E140BC411EE30BA59118/Shortcut/@EntryValue">specsuite</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DEEDC1B27CC2E140BC411EE30BA59118/Description/@EntryValue">Creates a basic Jasmine spec suite</s:String>

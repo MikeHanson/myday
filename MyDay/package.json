@@ -2,9 +2,13 @@
   "name": "MyDay",
   "version": "0.0.0",
   "description": "MyDay",
-  "main": "app.js",
+  "main": "server.js",
   "author": {
     "name": "Mike",
     "email": ""
+  },
+  "dependencies": {
+    "express": "^4.10.4",
+    "serve-static": "^1.7.1"
   }
 }
