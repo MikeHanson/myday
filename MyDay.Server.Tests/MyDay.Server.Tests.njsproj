@@ -29,6 +29,9 @@
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Test' ">
+    <OutputPath>bin\Test\</OutputPath>
+  </PropertyGroup>
   <ItemGroup>
     <Folder Include="spec\" />
   </ItemGroup>

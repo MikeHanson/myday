@@ -19,8 +19,8 @@
         var path = __dirname + '\\screenshots\\report.html';
         var opener = require('opener');
         opener(path);
-        for(var i = 0; i < 150; i++){
-            console.log('Waiting for report to load...');
+        for(var i = 0; i < 200; i++){
+            console.log('.');
             // need to let opener finish
             // ugly but simplest thing I could get working
         }

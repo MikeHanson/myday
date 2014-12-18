@@ -33,6 +33,9 @@
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Test' ">
+    <OutputPath>bin\Test\</OutputPath>
+  </PropertyGroup>
   <ItemGroup>
     <Compile Include="server.js" />
     <Content Include="package.json" />
